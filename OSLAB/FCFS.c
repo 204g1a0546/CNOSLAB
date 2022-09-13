@@ -6,17 +6,20 @@
 */
 
 #include<stdio.h>
-#include<conio.h>
-main()
+//#include<conio.h>
+void main()
 {
 int bt[20], wt[20], tat[20], i, n;
 float wtavg, tatavg;
-clrscr();
-printf("\nEnter the number of processes -- ");
+//clrscr();
+printf("Enter the number of processes -- ");
+fflush(stdout);
 scanf("%d", &n);
+fflush(stdin);
 for(i=0;i<n;i++)
 {
-printf("\nEnter Burst Time for Process %d -- ", i);
+printf("Enter Burst Time for Process %d -- ", i);
+fflush(stdout);
 scanf("%d", &bt[i]);
 }
 wt[0] = wtavg = 0;
@@ -34,5 +37,5 @@ for(i=0;i<n;i++)
 printf("\n\t P%d \t\t %d \t\t %d \t\t %d", i, bt[i], wt[i], tat[i]);
 printf("\nAverage Waiting Time -- %f", wtavg/n);
 printf("\nAverage Turnaround Time -- %f", tatavg/n);
-getch();
+//getch();
 }
