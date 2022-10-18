@@ -5,8 +5,9 @@
    Date of Execution: 18-10-2022
 */
 
+#include<stdio.h>
 int tph, philname[20], status[20], howhung, hu[20], cho;
- int main()
+int main()
 
 {
 int i; clrscr();
@@ -81,4 +82,5 @@ printf("\nP %d is waiting", philname[hu[x]]);
 }
 }
 }
+return 0;
 }
