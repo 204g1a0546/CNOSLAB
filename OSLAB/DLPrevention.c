@@ -1,12 +1,18 @@
-#include<stdio.h>
-#include<conio.h>
+/* Name Of the Candidate: N.Jyothi
+   Roll No: 204G1A0546
+   Title of the Experiment: Dead Lock Prevention Program
+   Date of Creation: 08-11-2022
+   Date of Execution: 08-11-2022
+*/
 
-void main()
+
+
+#include<stdio.h>
+int main()
 {
 char job[10][10];
 int time[10],avail,tem[10],temp[10]; int safe[10];
 int ind=1,i,j,q,n,t;
-clrscr();
 printf("Enter no of jobs: ");
 scanf("%d",&n);
 for(i=0;i<n;i++)
@@ -52,5 +58,5 @@ printf("No safe sequence\n");
 printf("Safe sequence is:");
 for(i=1;i<ind; i++)
 printf("%s %d\n",job[safe[i]],time[safe[i]]);
-getch();
+return 0;
 }
