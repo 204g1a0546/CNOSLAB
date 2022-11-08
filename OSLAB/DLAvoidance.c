@@ -9,7 +9,7 @@
 
 #include<stdio.h>
 #include<string.h>
-void main()
+int main()
 {
 int alloc[10][10],max[10][10];
 int avail[10],work[10],total[10];
