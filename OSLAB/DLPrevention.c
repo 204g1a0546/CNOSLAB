@@ -18,7 +18,7 @@ scanf("%d",&n);
 for(i=0;i<n;i++)
 {
 printf("Enter name and time: ");
-scanf("%s%d",&job[i],&time[i]);
+scanf("%s%d",&job[i][i],&time[i]);
 }
 printf("Enter the available resources:");
 scanf("%d",&avail);
