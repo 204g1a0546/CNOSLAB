@@ -1,0 +1,14 @@
+<pre>Enter no of jobs: 6
+Enter name and time: j 3
+Enter name and time: y 4
+Enter name and time: o 5
+Enter name and time: t 6
+Enter name and time: h 7
+Enter name and time: i 6
+Enter the available resources:30
+jSafe sequence is:j 3
+ 4
+ 5
+ 6
+ 6
+ 7</pre>
