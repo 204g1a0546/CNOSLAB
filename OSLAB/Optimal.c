@@ -8,10 +8,9 @@
 
 /* Program to simulate optimal page replacement */
 #include<stdio.h>
-#include<conio.h>
+
 int fr[3], n, m;
-void
-display();
+void display();
 void main()
 {
 int i,j,page[20],fs[10];
