@@ -11,7 +11,7 @@
 
 int fr[3], n, m;
 void display();
-void main()
+int main()
 {
 int i,j,page[20],fs[10];
 int
