@@ -17,7 +17,7 @@ int i,j,page[20],fs[10];
 int
 max,found=0,lg[3],index,k,l,flag1=0,flag2=0,pf=0;
 float pr;
-clrscr();
+
 printf("Enter length of the reference string: ");
 scanf("%d",&n);
 
@@ -95,7 +95,8 @@ display();
 }
 printf("Number of page faults : %d\n", pf);
 pr=(float)pf/n*100;
-printf("Page fault rate = %f \n", pr); getch();
+printf("Page fault rate = %f \n", pr); 
+return 0;
 
 }
 void display()
